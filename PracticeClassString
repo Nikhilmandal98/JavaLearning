@@ -1,0 +1,15 @@
+package homework;
+
+public class PracticeClassString {
+
+	
+	public static void main(String[] args) {
+		
+		String firstName ="Nirjhor";
+		String middleName ="kumar";
+		String lastName = "Mandal";
+		String fullNmae = firstName + " " + middleName + " " + lastName;
+		System.out.println(fullNmae);
+}
+
+}
