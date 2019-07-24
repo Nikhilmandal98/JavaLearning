@@ -1,0 +1,27 @@
+package homework;
+
+import java.nio.IntBuffer;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.zip.Inflater;
+
+public class PhoneBookMap1{
+	public static void main(String[] args) {
+		
+	Map<Integer,String> PhoneBook12 = new HashMap<Integer, String>();
+	
+	PhoneBook12.put(1001, "Nikhil");
+	PhoneBook12.put(1002, "Nihar");
+	PhoneBook12.put(1003, "Nepal");
+	PhoneBook12.put(1004, "Nirjhor");
+	PhoneBook12.put(1005, "Nirmal");
+	PhoneBook12.put(1006, "Nitai");
+	PhoneBook12.put(1007, "Nirupoma");
+	System.out.print(PhoneBook12);
+	
+	
+	}
+
+	
+	}
+
