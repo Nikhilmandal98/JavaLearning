@@ -1,0 +1,25 @@
+package collectionpractice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+		
+
+Set<String> myFirstSet = new HashSet<String>();
+myFirstSet.add("Nepal");
+myFirstSet.add("kalam");
+myFirstSet.add("Nikhil");
+myFirstSet.add("kutub");
+myFirstSet.add("saphin");
+myFirstSet.add("Nirjhor");
+myFirstSet.add("pijus");
+myFirstSet.add("uttar");
+myFirstSet.add("Rajendra");
+
+System.out.println(myFirstSet);
+	}
+
+}
