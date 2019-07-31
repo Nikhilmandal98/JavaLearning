@@ -1,0 +1,30 @@
+package collectionsdemo;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+
+LinkedList ll2 =new LinkedList();
+ll2.add("sourik");
+ll2.add(14);
+ll2.add(3.456);
+ll2.add(13245678L);
+ll2.add(123456);
+ll2.add('N');
+ll2.add("sourik");
+
+Object element = ll2.get(2);
+System.out.println("element of the two index position" +element);
+
+
+int sizeOfMyLinkedList= ll2.size();
+System.out.println(sizeOfMyLinkedList);
+ll2.add(2, "Nirjhor");
+ll2.clear();
+System.out.println(ll2);
+	}
+}
+
+
