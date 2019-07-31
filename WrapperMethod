@@ -1,0 +1,19 @@
+package collectionsdemo;
+
+public class WrapperMethod {
+
+	public static void main(String[] args) {
+		
+		
+Integer i =12;
+Double d =12.575;
+Character c ='A';
+Boolean b = true;
+System.out.println(i.intValue());
+System.out.println(d.doubleValue());
+System.out.println(c.charValue());
+System.out.println(b.booleanValue());
+
+	}
+
+}
