@@ -1,0 +1,26 @@
+package collectionsdemo;
+
+import java.util.Vector;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+
+int[]numArray=new int[10]; 
+//vector is a grow able array
+
+Vector v = new Vector(3,2);
+v.add(12);                  //one
+
+v.add("New york");          //two
+v.add(3.1234567);            //three
+System.out.println(v.size());
+System.out.println(v.capacity());
+v.add("java");
+System.out.println("size and capacity now");
+System.out.println(v.size());
+System.out.println(v.capacity());
+	}
+}
+
+
