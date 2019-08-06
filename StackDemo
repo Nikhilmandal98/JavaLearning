@@ -1,0 +1,19 @@
+package homework;
+
+import java.util.Stack;
+
+public class StackDemo {
+
+	public static void main(String[] args) {
+
+Stack<String> nikhil = new Stack<String>();
+nikhil.add("biju");
+nikhil.add("Nipu");
+nikhil.add("Mim");
+nikhil.add("Jon");
+nikhil.add("Ron");
+nikhil.add("Popy");
+System.out.println(nikhil);
+	}
+
+}
