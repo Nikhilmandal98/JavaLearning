@@ -1,0 +1,47 @@
+package collectionsdemo;
+
+import java.util.Arrays;
+import java.util.Deque;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
+public class DequeDemo {
+
+private static char[] i;
+
+public static void main(String[] args) { 
+
+Deque<Integer> myDeque = new LinkedList<Integer>();
+
+Deque<String> myD = new LinkedList<String>();
+
+myD.add("nirjhor");
+myD.add("sourik");
+myD.add("sompa");
+myD.add("pritom");
+myD.add("nikita");
+myD.add("joy");
+myD.add("roy");
+myD.add("niloy");
+myD.add("bed");
+myD.add("pinu");
+myD.add("Dinu");
+myD.add("robi");
+myD.size();
+Iterator<String> myIterator = myD.iterator();
+while(myIterator.hasNext()) {
+System.out.println(myIterator.next() + "*");
+}
+
+System.out.println(myD);
+System.out.println(myD);
+
+System.out.println(myD);
+
+
+
+}
+
+}
