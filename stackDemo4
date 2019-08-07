@@ -1,0 +1,29 @@
+package homework;
+
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.Stack;
+
+
+
+public class StackDemo {
+
+	public static void main(String[] args) {
+
+Stack<String> nikhil = new Stack<String>();
+nikhil.add("Biju");
+nikhil.add("Nipu");
+nikhil.add("Mim");
+nikhil.add("Jon");
+nikhil.add("Ron");
+nikhil.add("Popy");
+nikhil.add("Ron");
+nikhil.pop();
+nikhil.peek();
+
+Iterator<String> myIterator = nikhil.iterator();
+	while(myIterator.hasNext()) {
+		System.out.println(myIterator.next());
+	}
+}
+}
