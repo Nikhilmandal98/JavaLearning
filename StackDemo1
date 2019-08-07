@@ -1,0 +1,23 @@
+package homework;
+
+import java.util.Stack;
+
+public class StackDemo {
+
+	public static void main(String[] args) {
+
+Stack<String> nikhil = new Stack<String>();
+nikhil.add("biju");
+nikhil.add("Nipu");
+nikhil.add("Mim");
+nikhil.add("Jon");
+nikhil.add("Ron");
+nikhil.add("Popy");
+nikhil.add("Ron -is the 5th position");
+System.out.println(nikhil);
+System.out.println(nikhil.size());
+System.out.println(nikhil.capacity());
+
+	}
+}
+
